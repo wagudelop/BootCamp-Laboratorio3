@@ -1,0 +1,102 @@
+header {
+  background-color: #007bff; /* mismo color del botón */
+  width: 100%;
+  padding: 2em 0;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Fondo muy claro */
+    margin: 0;
+    padding-top: 2em;
+}
+
+.calculadora-basica {
+    background-color: #ffffff; /* Fondo blanco para la calculadora */
+    padding: 2.5em;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em; /* Espaciado entre elementos principales (título, formulario, resultado) */
+}
+
+h1 {
+    color: #212529;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 2em;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em; /* Espaciado entre cada grupo de input */
+}
+
+label {
+    display: block; /* Asegura que la etiqueta esté en su propia línea */
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #495057;
+    text-align: left;
+}
+
+footer {
+  background-color: #e9ecef; /* Gris claro que armoniza con el fondo general */
+  color: #495057; /* Texto oscuro para buena legibilidad */
+  text-align: left;
+  padding: 1em;
+  font-size: 0.9em;
+  border-top: 1px solid #dee2e6;
+  margin-top: 2em;
+  border-radius: 0 0 12px 12px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #495057;
+}
+
+button {
+    padding: 0.9em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+#resultado {
+    margin-top: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+}

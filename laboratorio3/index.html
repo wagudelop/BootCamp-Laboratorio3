@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio 12</title>
+    <link rel="stylesheet" href="calculadora.css">
 </head>
 
 <body>
-
-    <h1>Calculadora básica</h1>
+    <header>
+        <h1>Calculadora básica</h1>
+    </header>
 
     <form id="formCalculadora">
-        <label for="numero1">Número 1:</label>
+        <label for="numero1">Ingrese el primer número 1:</label>
         <input type="number" id="numero1" required><br><br>
 
-        <label for="numero2">Número 2:</label>
+        <label for="numero2">Ingrese el segundo número 2:</label>
         <input type="number" id="numero2" required><br><br>
 
-        <label for="operacion">Operación:</label>
+        <label for="operacion">Seleccione la Operación matemática:</label>
         <select id="operacion" required>
             <option value="">--Seleccione--</option>
             <option value="sumar">Sumar</option>
@@ -85,6 +87,9 @@
             document.getElementById('resultado').textContent = "El resultado es: " + resultado;
         });
     </script>
+<footer>
+  Ejercicio realizado el 1 de agosto de 2025
+</footer>
 
 </body>
 
